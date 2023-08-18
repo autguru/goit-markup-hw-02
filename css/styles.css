@@ -1,3 +1,13 @@
+/*  VARIATION  */
+:root {
+  --primary-color: #4d5ae5;
+  --secondary-color: #404bbf;
+  --accent-color: #e7e9fc;
+}
+/*  VARIATION  */
+
+/*  COMMON STYLES  */
+
 .list {
   list-style-type: none;
 }
@@ -7,8 +17,9 @@
 }
 
 a {
-    text-decoration: none;
-  }
+  text-decoration: none;
+}
+
 button {
   cursor: pointer;
 }
@@ -16,4 +27,103 @@ button {
 body {
   font-family: 'Raleway', sans-serif;
   font-family: 'Roboto', sans-serif;
+}
+
+/* PAGE HEADER */
+
+.logotype {
+  color: var(--iris, #4d5ae5);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1, 16;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+
+  color: var(--navyblue, #2e2f42);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1, 16;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
+/*  PAGE HEADER  */
+
+.menu-link {
+  color: var(--navyblue, #2e2f42);
+  /* font-family: Roboto; */
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1, 5;
+  letter-spacing: 0.32px;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--accent-color);
+}
+/* PAGE HEADER */
+
+/*  HERO  */
+.main-title {
+  color: var(--white, #fff);
+  text-align: center;
+
+  /* Header 1 */
+  font-family: Roboto;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1, 07;
+  letter-spacing: 1.12px;
+}
+
+.order-serv-btn {
+  color: var(--white, #fff);
+
+  /* Button Text */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1, 5;
+  letter-spacing: 0.64px;
+}
+
+.order-serv-btn:hover,
+.buy-now-btn:focus {
+  border-radius: 4px;
+  background: var(--iris, #4d5ae5);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  color: var(--accent-color);
+}
+/* SECTION1 */
+.s1-list-title {
+  color: var(--navyblue, #2e2f42);
+
+  /* Header 3 */
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1, 2;
+  letter-spacing: 0.4px;
+
+  color: var(--navyblue, #2e2f42);
+  text-align: center;
+}
+
+.s1-list-text {
+  color: var(--slate, #434455);
+
+  /* Body */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
 }
