@@ -34,7 +34,8 @@ body {
   color: #434455;
 }
 
-.logotype {
+.logotype :hover,
+.logotype:focus {
   color: var(--iris, #2e2f42);
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
@@ -100,8 +101,8 @@ body {
   gap: 8px;
 }
 
-.order-serv-btn {
-  color: var(--white, #fff);
+.order-serv-btn-text {
+  color: var(--white, #ffffff);
 
   /* Button Text */
   font-family: Roboto;
