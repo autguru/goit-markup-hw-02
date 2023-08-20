@@ -42,6 +42,11 @@ body {
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
 }
+.adress-item-link:hover,
+.adress-item-link:focus {
+  color: #404bbf;
+}
+
 .menu-link {
   color: #2e2f42;
   font-size: 16px;
@@ -55,6 +60,9 @@ body {
 }
 
 /* HERO SECTION  */
+.section-hero-fon {
+  background-color: #2e2f42;
+}
 .section-hero-title {
   color: #fff;
   background: #2e2f42;
@@ -67,6 +75,7 @@ body {
 
 .order-serv-btn-text {
   color: #ffffff;
+  background-color: #4d5ae5;
   /* Button Text */
   font-size: 16px;
   font-weight: 500;
@@ -81,6 +90,10 @@ body {
 }
 
 /* SOLUTIONS */
+
+.section-our-solution {
+  background: #fff;
+}
 /* Header 3 */
 .section-solution-title {
   color: #2e2f42;
