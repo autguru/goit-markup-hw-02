@@ -36,7 +36,7 @@ body {
   font-family: Roboto, sans-serif;
 }
 /* HEADER */
-/* var(--iris, #4d5ae5); */
+
 .logotype {
   color: #4d5ae5;
   font-family: Raleway, sans-serif;
@@ -61,7 +61,7 @@ body {
 /* HERO SECTION  */
 h1 {
   color: #fff;
-  background: var(--navyblue, #2e2f42);
+  background: #2e2f42;
   text-align: center;
   font-size: 56px;
   font-weight: 700;
@@ -95,7 +95,6 @@ h3 {
 .text-footer {
   color: #f4f4fd;
   font-size: 16px;
-
   font-weight: 400;
   line-height: 1, 5; /* 150% */
   letter-spacing: 0, 02em;
