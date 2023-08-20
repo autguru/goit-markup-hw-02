@@ -85,7 +85,6 @@ body {
 
 .order-serv-btn:hover,
 .order-serv-btn:focus {
-  color: #4d5ae5;
   background-color: #404bbf;
 }
 
@@ -188,12 +187,11 @@ body {
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
 }
-.logotype-footer-style {
-  line-height: 1.17;
-  letter-spacing: 0.03em;
+.section-footer-fon {
+  background: #2E2F42
 }
-.logo-part-footer {
+.logotype-footer-style {
   color: #f4f4fd;
-  line-height: 1.5;
+  line-height: 1.15;
   letter-spacing: 0.02em;
 }
