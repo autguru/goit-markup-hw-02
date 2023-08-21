@@ -75,7 +75,7 @@ body {
 
 .order-serv-btn-text {
   color: #ffffff;
-  background-color: #4d5ae5;
+  background-color: #404bbf;
   /* Button Text */
   font-size: 16px;
   font-weight: 500;
@@ -188,10 +188,17 @@ body {
   letter-spacing: 0.02em;
 }
 .section-footer-fon {
-  background: #2E2F42
+  background: #2e2f42;
 }
 .logotype-footer-style {
+  color: #4d5ae5;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.logo-part-footer {
   color: #f4f4fd;
-  line-height: 1.15;
-  letter-spacing: 0.02em;
 }
