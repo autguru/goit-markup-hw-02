@@ -109,7 +109,9 @@ body {
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
 }
+
 /* TEAM */
+
 .section-our-team {
   background-color: #f4f4fd;
 }
@@ -145,6 +147,7 @@ body {
   letter-spacing: 0.02em;
 }
 
+
 /* Our Portfolio */
 .our-portfolio-title {
   color: #2e2f42;
@@ -160,7 +163,7 @@ body {
 
 .our-portfolio-items {
   color: #2e2f42;
-  background: #fff;
+  background: #ffffff;
   /* Header 3 */
   font-size: 20px;
   font-weight: 500;
