@@ -149,6 +149,11 @@ body {
 
 
 /* Our Portfolio */
+
+.section-our-portfolio {
+  background: #ffffff;
+}
+
 .our-portfolio-title {
   color: #2e2f42;
   text-align: center;
@@ -173,7 +178,7 @@ body {
 
 .our-portfolio-describtion {
   color: #434455;
-  background: #fff;
+  background: #ffffff;
   /* Body */
   font-size: 16px;
   font-weight: 400;
